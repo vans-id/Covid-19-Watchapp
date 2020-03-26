@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  background-color: rgb(244, 246, 248);
+}
+
+#mainChart,
+#indoChart,
+#italyChart,
+#usChart,
+#koreaChart {
+  max-width: 400px;
+}
+
+#infectedChart {
+  margin: 30px auto;
+}
+
+.navbar {
+  background-color: #3f51b5;
+}
+
+.btn-learn-more {
+  background-color: #3f51b5;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-learn-more:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.card {
+  border-radius: 11px;
+}
+
+span {
+  font-weight: 700;
+  color: #3700b3;
+}
+
+.navigator {
+  font-size: 18px;
+}
